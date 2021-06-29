@@ -9,23 +9,63 @@ body {
 </head>
 <body background="https://media.giphy.com/media/Kyz78m3Ura2VCLptRw/giphy.gif">
 <hr color="grey">
-<center><b><font color="blue" size="36"><marquee>Welcome to Shreya Movies Corner</marquee></font></b></center>
+<center><b><font color="brown" size="36"><marquee><i>Welcome to Shreya Movies Arena</i></marquee></font></b></center>
 <hr color="grey">
 <br>
 <br>
-<ul>
-<li><b><font color="white" size="4">Hollywood Movies:</font></b></li>
-<li><b><font color="white" size="4">Bollywood Movies:</font></b></li>
-<li><b><font color="white" size="4">Marvel Movies:</font></b></li>
-<li><b><font color="white" size="4">DC Movies:</font></b></li>
-<li><b><font color="white" size="4">Animated Movies:</font></b></li>
-<li><b><font color="white" size="4">Horror Movies:</font></b></li>
-<li><b><font color="white" size="4">Netflix Movies:</font></b></li>
-<li><b><font color="white" size="4">Netflix Series:</font></b></li>
-<li><b><font color="white" size="4">American TVshows:</font></b></li>
-<li><b><font color="white" size="4">Disney and Nickelodeon shows:</font></b></li>
-<li><b><font color="white" size="4">Disney Series:</font></b></li>
-</ul>
+<center>
+<form>  
+    <select id="myInput" onclick="myfn();">  
+        <option value="0">Select The type of movie you would like to watch</option>  
+        <option value="1" style="color: violet;" >Hollywood Movies:</option>   
+        <option value="2" style="color: red;" >Bollywood Movies:</option> 
+        <option value="3" style="color: black;">Marvel Movies:</option> 
+        <option value="4" style="color: red;">DC Movies:</option>  
+	<option value="5" style="color: violet;">Animated Movies:</option>  
+        <option value="6" style="color: blue;">Horror Movies:</option>  
+        <option value="7" style="color: black;">Netflix Movies:</option>  
+        <option value="8" style="color: green;">Netflix Series:</option>  
+        <option value="9" style="color: red;">American TVshows:</option> 
+	<option value="10" style="color: green;">Disney and Nickelodeon shows:</option>  
+        <option value="11" style="color: red;">Disney Series:</option> 
+    </select>  
+ </form> 
+</center>
+ <script>
+function myfn(){
+var box=document.getElementById("myInput");
+if(box.value=="1"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/hollywood%20moviesl1%20page.html");
+}
+if(box.value=="2"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/bollywood%20movies/bollywood.html");
+}
+if(box.value=="3"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Marvel%20Movies/Marvel%20Movies.html");
+}
+if(box.value=="4"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/DC%20Movies/DC%20Movies.html");
+}if(box.value=="5"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Animated%20Movies/Animated%20Movies.html");
+}
+if(box.value=="6"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Horror%20Movies/Horror%20Movies.html");
+}
+if(box.value=="7"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Netflix%20Movies/Netflix%20Movies.html");
+}if(box.value=="8"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Netflix%20Series/Netflix%20Series.html");
+}
+if(box.value=="9"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/American%20TVshows/American%20TVshows.html");
+}if(box.value=="10"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Disney%20and%20Nickelodeon%20shows/Disney%20and%20Nickelodeon%20shows.html");
+}
+if(box.value=="11"){
+window.open("file:///C:/Users/DELL/Desktop/mysite/Disney%20Series/Disney%20Series.html");
+}
 
+}
+</script>
 </body>
 </html>
